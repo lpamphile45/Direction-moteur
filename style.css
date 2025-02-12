@@ -1,0 +1,79 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Conteneur Flex */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet le retour à la ligne pour les cartes */
+    gap: 20px; /* Espacement entre les cartes */
+    justify-content: center; /* Centrer les cartes horizontalement */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style des cartes */
+.card {
+    flex: 1 1 calc(25% - 20px); /* Prend 25% de la largeur moins l'espacement */
+    max-width: calc(25% - 20px); /* Fixe la largeur maximale à 25% */
+    background-color: #0002FF; /* Couleur bleue */
+    color: white;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation */
+}
+
+/* Style des cartes avec lien en blanc */
+.card a {
+    color: white; /* Rend le texte visible sur le fond bleu */
+    text-decoration: none; /* Supprime le soulignement */
+    width: 100%;
+    height: 100%;
+}
+
+/* Effet au survol */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ligne sous le texte */
+.card::after {
+    content: '';
+    display: block;
+    margin: 10px auto 0;
+    width: 50px;
+    height: 4px;
+    background-color: #ffc107; /* Ligne jaune */
+}
+
+/* Responsive : Adaptation pour les petits écrans */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* 2 cartes par ligne */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* 1 carte par ligne */
+        max-width: 100%;
+    }
+}

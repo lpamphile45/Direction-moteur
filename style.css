@@ -1,67 +1,48 @@
-/* Style général */
 body {
     font-family: Arial, sans-serif;
-    font-size: large;
-    margin: 0;
+    text-align: center;
+    background-color: #f4f4f4;
     padding: 20px;
-    background-color: #f9f9f9;
+}
+
+h2 {
     color: #333;
 }
 
-/* Titre */
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
 }
 
-/* Conteneur Flex */
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Permet le retour à la ligne pour les cartes */
-    gap: 20px; /* Espacement entre les cartes */
-    justify-content: center; /* Centrer les cartes horizontalement */
-    max-width: 1200px;
-    margin: 0 auto;
+.result-container {
+    margin-top: 20px;
 }
 
-/* Style des cartes */
-.card {
-    flex: 1 1 calc(25% - 20px); /* Prend 25% de la largeur moins l'espacement */
-    max-width: calc(25% - 20px); /* Fixe la largeur maximale à 25% */
-    background-color: #0002FF; /* Couleur bleue */
-    color: white;
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
-    padding: 20px;
-    text-align: center;
+.result {
+    display: none; /* Caché par défaut */
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
     font-weight: bold;
-    transition: transform 0.2s, box-shadow 0.2s; /* Animation */
 }
 
-/* Style des cartes avec lien en blanc */
-.card a {
-    color: white; /* Rend le texte visible sur le fond bleu */
-    text-decoration: none; /* Supprime le soulignement */
-    width: 100%;
-    height: 100%;
+.highlight {
+    color: #007bff;
 }
 
-/* Effet au survol */
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+ul {
+    list-style-type: none;
 }
 
-/* Ligne sous le texte */
-.card::after {
-    content: '';
-    display: block;
-    margin: 10px auto 0;
-    width: 50px;
-    height: 4px;
-    background-color: #ffc107; /* Ligne jaune */
-}
+
 
 /* Responsive : Adaptation pour les petits écrans */
 @media (max-width: 768px) {

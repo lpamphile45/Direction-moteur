@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche par mot-clé</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+    <header>
+        <div id="menu"></div>
+    </header>
+<body>
+    <h1>Recherche par mot-clé</h1>
+
+    <!-- champ de recherche -->
+    <input type="text" id="search-bar" placeholder="Tapez un mot-clé...">
+
+    <div class="result-container">
+        <div class="result" data-keywords="conseil école relecture">✅ <span class="highlight"><a href="conseil_ecole.html">Conseil d'école</a></span></div>
+        <div class="result" data-keywords="conseil maitres">✅ <span class="highlight"><a href="instances.html">Conseil des maitres</a></span></div>
+        <div class="result" data-keywords="conseil cycle">✅ <span class="highlight"><a href="instances.html">Conseil de cycle</a></span></div>
+        <div class="result" data-keywords="équipe éducative préparer préparation">✅ <span class="highlight"><a href="suivi_eleves.html">Équipe éducative : la préparer</a></span></div>
+    </div>
+
+<!-- liste des mots-clés-->
+<ul>
+    <li>Conseil d'école</li>
+    <li>Conseil des maitres</li>
+    <li>Conseil de cycle</li>
+    <li>Équipe éducative : la préparation</li>
+</ul>
+
+<footer>
+    <p>&copy; 2025</p>
+</footer>
+
+    <script>
+        document.getElementById("search-bar").addEventListener("input", function() {
+            let searchValue = this.value.toLowerCase();
+            let results = document.querySelectorAll(".result");
+
+            results.forEach(result => {
+                let keywords = result.getAttribute("data-keywords");
+                if (keywords.includes(searchValue)) {
+                    result.style.display = "block"; // Affiche les résultats correspondants
+                } else {
+                    result.style.display = "none"; // Cache les autres résultats
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

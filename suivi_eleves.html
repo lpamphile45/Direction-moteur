@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note de lecture du PV</title>
+   <style>  /* Style général */
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+     background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+       
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .download-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 2px solid #007bff;
+            outline: none;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Notification */
+        .notification {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Icônes des formats */
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Note de lecture du PV</h1>
+
+       <iframe class="pdf-container" 
+        src="https://docs.google.com/gview?url=https://nuage02.apps.education.fr/index.php/s/EL3NH5DTQpZJr4r/download/Document%20de%20pr%C3%A9paration%20EE.pdf&embedded=true" 
+        width="100%" height="600px">
+    </iframe>
+    
+        <div class="download-container">
+        <label for="fileFormat">Choisissez un format :</label>
+        <select id="fileFormat">
+            <option value="https://nuage02.apps.education.fr/index.php/s/EL3NH5DTQpZJr4r">PDF</option>
+            <option value="https://nuage02.apps.education.fr/index.php/s/Qt3RXmaMmFFMen4">Word</option>
+            <option value="https://nuage02.apps.education.fr/index.php/s/wzHgSwTnNcznCzW">LibreOffice</option>
+        </select>
+        <br>
+        <button onclick="downloadFile()">Télécharger</button>
+        <div class="notification" id="notification">✅ Téléchargement en cours...</div>
+    </div>
+
+    <script>
+        function downloadFile() {
+        let select = document.getElementById("fileFormat");
+        let selectedFile = select.value;
+        let fileName = select.options[select.selectedIndex].text;
+        
+        // Ouvre le lien dans un nouvel onglet
+        window.open(selectedFile, "_blank");
+
+        // Afficher la notification
+        let notification = document.getElementById("notification");
+        notification.innerHTML = `✅ ${fileName} en téléchargement...`;
+        notification.style.display = "block";
+
+        // Masquer la notification après 3 secondes
+        setTimeout(() => {
+            notification.style.display = "none";
+        }, 3000);
+    }
+
+    </script>
+
+
+</body>
+</html>

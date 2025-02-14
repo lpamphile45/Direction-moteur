@@ -74,6 +74,17 @@ nav a:hover {
     transition: opacity 0.3s ease;
 }
 
+/* Style de la FAQ*/
+.faq-item {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.faq-answer {
+    display: none;
+    margin-left: 20px;
+}
+
 footer {
     background: #004080;
     color: white;

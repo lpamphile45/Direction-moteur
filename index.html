@@ -7,24 +7,22 @@
     <link rel="stylesheet" href="./style.css">
    
 </head>
-    <header>
-        <div id="menu"></div>
-    </header>
+    
 <body>
-    <h1>Recherche par mot-clé</h1>
+    <h1>Que cherchez-vous ?</h1>
 
     <!-- champ de recherche -->
     <input type="text" id="search-bar" placeholder="Tapez un mot-clé...">
 
     <div class="result-container">
-        <div class="result" data-keywords="conseil école relecture compte-rendu note">✅ <span class="highlight"><a href="conseil_ecole.html">Conseil d'école</a></span></div>
-        <div class="result" data-keywords="conseil école relecture compte-rendu note">✅ <span class="highlight"><a href="lecturePV.html">Relecture PV du conseil d'école</a></span></div>
-        <div class="result" data-keywords="conseil maitres">✅ <span class="highlight"><a href="instances.html">Conseil des maitres</a></span></div>
-        <div class="result" data-keywords="conseil cycle">✅ <span class="highlight"><a href="instances.html">Conseil de cycle</a></span></div>
-        <div class="result" data-keywords="équipe éducative préparer préparation">✅ <span class="highlight"><a href="suivi_eleves.html">Équipe éducative : la préparer</a></span></div>
+        <div class="result" data-keywords="conseil école relecture">✅ <span class="highlight"><a href="conseil_ecole.html" target="_blank">Conseil d'école</a></span></div>
+        <div class="result" data-keywords="conseil école relecture compte-rendu note PV ">✅ <span class="highlight"><a href="lecturePV.html" target="_blank">Relecture PV du conseil d'école</a></span></div>
+        <div class="result" data-keywords="conseil maitres">✅ <span class="highlight"><a href="instances.html" target="_blank">Conseil des maitres</a></span></div>
+        <div class="result" data-keywords="conseil cycle">✅ <span class="highlight"><a href="instances.html" target="_blank">Conseil de cycle</a></span></div>
+        <div class="result" data-keywords="équipe éducative préparer préparation">✅ <span class="highlight"><a href="suivi_eleves.html" target="_blank">Équipe éducative : la préparer</a></span></div>
     </div>
 
-<!-- liste des mots-clés-->
+<!-- liste des mots-clés sous la barre de recherche-->
 <ul>
     <li>Conseil d'école</li>
     <li>Conseil des maitres</li>
@@ -37,19 +35,24 @@
 </footer>
 
     <script>
-        document.getElementById("search-bar").addEventListener("input", function() {
-            let searchValue = this.value.toLowerCase();
-            let results = document.querySelectorAll(".result");
+       document.getElementById("search-bar").addEventListener("input", function() {
+    let searchValue = this.value.toLowerCase().trim();
+    let results = document.querySelectorAll(".result");
 
-            results.forEach(result => {
-                let keywords = result.getAttribute("data-keywords");
-                if (keywords.includes(searchValue)) {
-                    result.style.display = "block"; // Affiche les résultats correspondants
-                } else {
-                    result.style.display = "none"; // Cache les autres résultats
-                }
-            });
-        });
+    results.forEach(result => {
+        let keywords = result.getAttribute("data-keywords").toLowerCase();
+        let searchWords = searchValue.split(/\s+/); // Sépare par espace
+
+        // Vérifie si TOUS les mots saisis sont dans les mots-clés
+        let match = searchWords.every(word => keywords.includes(word));
+
+        if (match) {
+            result.style.display = "block"; // Affiche les résultats correspondants
+        } else {
+            result.style.display = "none"; // Cache les autres résultats
+        }
+    });
+});
     </script>
 
 </body>

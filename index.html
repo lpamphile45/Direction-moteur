@@ -15,7 +15,7 @@
     <input type="text" id="search-bar" placeholder="Tapez un mot-clé...">
 
     <div class="result-container">
-        <div class="result" data-keywords="conseil école relecture">✅ <span class="highlight"><a href="conseil_ecole.html" target="_blank">Conseil d'école</a></span></div>
+        <div class="result" data-keywords="conseil d'école relecture">✅ <span class="highlight"><a href="conseil_ecole.html" target="_blank">Conseil d'école</a></span></div>
         <div class="result" data-keywords="conseil école relecture compte-rendu note PV procès-verbal">✅ <span class="highlight"><a href="lecturePV.html" target="_blank">Relecture PV du conseil d'école</a></span></div>
         <div class="result" data-keywords="conseil maitres">✅ <span class="highlight"><a href="instances.html" target="_blank">Conseil des maitres</a></span></div>
         <div class="result" data-keywords="conseil cycle">✅ <span class="highlight"><a href="instances.html" target="_blank">Conseil de cycle</a></span></div>
@@ -38,6 +38,12 @@
        document.getElementById("search-bar").addEventListener("input", function() {
     let searchValue = this.value.toLowerCase().trim();
     let results = document.querySelectorAll(".result");
+
+    // Si le champ est vide, cacher tous les résultats
+    if (searchValue === "") {
+        results.forEach(result => result.style.display = "none");
+        return; // Sortir de la fonction
+    }
 
     results.forEach(result => {
         let keywords = result.getAttribute("data-keywords").toLowerCase();

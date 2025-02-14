@@ -45,22 +45,21 @@ h1 {
     color: #007bff;
 }
 
-/* Liste des mots-clés */
-ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-ul li {
+/* Style des mots-clés sous forme de liens sobres */
+.keyword-link {
+    display: inline-block;
+    padding: 8px 15px;
     margin: 5px;
-    padding: 5px 10px;
     background-color: #007bff;
     color: white;
     border-radius: 5px;
     font-size: 14px;
+    text-decoration: none; /* Supprime le soulignement */
+    cursor: pointer;
+}
+
+.keyword-link:hover {
+    background-color: #0056b3; /* Bleu foncé au survol */
 }
 
 /* Pied de page */

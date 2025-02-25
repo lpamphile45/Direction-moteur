@@ -2,12 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #A1E3F9;
     padding: 20px;
 }
 
 h1 {
-    color: #333;
+    color: #007bff;
+    
 }
 
 /* Champ de recherche */

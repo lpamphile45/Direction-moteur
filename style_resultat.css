@@ -6,7 +6,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
+    background: #A1E3F9;
+   }
 header {
     background: #004080;
     color: white;
@@ -41,10 +42,12 @@ nav a:hover {
     padding: 2rem 0;
 }
 .section {
-    background: #f4f4f4;
+    background: white;
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
+    box-shadow: 2px 2px 3px gray;
+    border : 1px solid #0059b3;
 }
 /* ouverture d'une info-bulle au survol de la souris*/
 /* Style de l'élément déclencheur */

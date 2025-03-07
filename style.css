@@ -63,9 +63,10 @@ h1 {
     background-color: #0056b3; /* Bleu foncé au survol */
 }
 
-.MAJ114 {
+.MAJ {
     text-align: left;
     padding-left: 20px;
+    list-style: none;
 }
 
 /* Pied de page */

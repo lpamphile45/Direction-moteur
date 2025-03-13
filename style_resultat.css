@@ -49,6 +49,12 @@ nav a:hover {
     box-shadow: 2px 2px 3px gray;
     border : 1px solid #0059b3;
 }
+
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
 /* ouverture d'une info-bulle au survol de la souris*/
 /* Style de l'élément déclencheur */
 .hover-target {

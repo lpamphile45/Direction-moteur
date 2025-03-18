@@ -218,7 +218,7 @@ const documents = [
     //inclusion école inclusive
     {
         keywords: "enseignant referent référent secteur ASH",
-        link: "https://nuage02.apps.education.fr/index.php/s/9RrpPK6PwbB7ePe",
+        link: "./documents/inclusion/Secteurs_ENSEIGNANTS_REFERENTS_2024_2025.pdf",
         text: "Secteur des enseignants référents ASH (2024-2025)",
         icon: "✅"
     },

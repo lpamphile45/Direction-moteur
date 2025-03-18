@@ -1,3 +1,4 @@
+
 // Charger les documents depuis data.js
 function generateResults() {
     const container = document.querySelector(".result-container");
@@ -7,9 +8,13 @@ function generateResults() {
         const div = document.createElement("div");
         div.classList.add("result");
         div.setAttribute("data-keywords", doc.keywords);
-        div.innerHTML = `${doc.icon} <span class="highlight">
-            <a href="${doc.link}" target="_blank">${doc.text}</a>
-        </span>`;
+
+        // Vérifier si un lien existe
+        let content = doc.link 
+            ? `${doc.icon} <span class="highlight"><a href="${doc.link}" target="_blank">${doc.text}</a></span>`
+            : `${doc.icon} <span class="highlight">${doc.text}</span>`;
+
+        div.innerHTML = content;
         container.appendChild(div);
     });
 

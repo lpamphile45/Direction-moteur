@@ -150,18 +150,7 @@ const documents = [
         text: "Organigramme 2024-2025 de la DSDEN",
         icon: "✅"
     },
-    {
-        keywords: "conseil des maitres",
-        link: "./instances.html",
-        text: "Conseil des maitres",
-        icon: "✅"
-    },
-    {
-        keywords: "conseil de cycle",
-        link: "./instances.html",
-        text: "Conseil de cycle",
-        icon: "✅"
-    },
+    
     {
         keywords: "108 heures répartition JO",
         link: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034315959/",

@@ -206,8 +206,8 @@ const documents = [
 
     //inclusion école inclusive
     {
-        keywords: "enseignant referent référent secteur ASH",
-        link: "./documents/inclusion/Secteurs_ENSEIGNANTS_REFERENTS_2024_2025.pdf",
+        keywords: "enseignant referent référent secteur ASH inclusion",
+        link: "./documents/inclusion/Secteurs_ENSEIGNANTS_REFERENTS_2024_2025_MDP.pdf",
         text: "Secteur des enseignants référents ASH (2024-2025)",
         icon: "✅"
     },
@@ -467,6 +467,7 @@ const documents = [
     { keywords: "Diapre", text: "Diapre : Données Individuelles Anonymes du PREmier degré", icon: "👉🏻"  },
     { keywords: "DITEP", text: "DITEP : Dispositif intégré des Instituts Thérapeutiques, Éducatifs et Pédagogiques", icon: "👉🏻"  },
     { keywords: "DIVEL", text: "DIVEL : DIVision des ÉLeves", icon: "👉🏻"  },
+    { keywords: "DRANE", text: "DRANE : Délégation de Région Académique au Numérique Educatif", icon: "👉🏻"  },
     { keywords: "DSDEN", text: "DSDEN : Direction des Services Départementaux de l’Éducation Nationale (dirigée par un DASEN)", icon: "👉🏻"  },
     { keywords: "DUERP", text: "DUERP : Document Unique d'Évaluation des Risques Professionnels", icon: "👉🏻"  },
     { keywords: "PAM", text: "PAM : Pâte à modeler", icon: "👉🏻"  },

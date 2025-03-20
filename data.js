@@ -444,6 +444,7 @@ const documents = [
     { keywords: "CDO", text: "CDO : Commission Départementale d'Orientation", icon: "👉🏻" },
     { keywords: "CDOEA", text: "CDOEA : Commission D'Orientation vers les Enseignements Adaptés du second degré", icon: "👉🏻" },
     { keywords: "CE", text: "CE : Chef d’Établissement", icon: "👉🏻" },
+    { keywords: "CEDRE", text: "CEDRE : Cycle des Evaluations Disciplinaires Réalisées sur Echantillon", icon: "👉🏻" },
     { keywords: "CHS", text: "CHS : Comité d’Hygiène et de Sécurité", icon: "👉🏻" },
     { keywords: "CLAS", text: "CLAS : Contrats Locaux d'Accompagnement Scolaire", icon: "👉🏻" },
     { keywords: "CMP", text: "CMP : Centre Médico-Psychologique", icon: "👉🏻" },

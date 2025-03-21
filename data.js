@@ -66,7 +66,7 @@ const documents = [
     //absentéisme
     {
         keywords: "absentéisme note assiduité scolaire",
-        link: "./documents/absenteisme/note_IA.pdf",
+        link: "./documents/absenteisme/note_IA_MDP.pdf",
         text: "Absentéisme : note du directeur académique",
         icon: "✅"
     },

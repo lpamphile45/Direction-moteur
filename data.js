@@ -150,6 +150,12 @@ const documents = [
         text: "Organigramme 2024-2025 de la DSDEN",
         icon: "✅"
     },
+    {
+        keywords: "frais déplacement",
+        link: "./documents/frais/frais_deplacement.pdf",
+        text: "fiche de frais de déplacement",
+        icon: "✅"
+    },
     
     {
         keywords: "108 heures répartition JO",

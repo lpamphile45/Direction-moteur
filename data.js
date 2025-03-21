@@ -151,7 +151,7 @@ const documents = [
         icon: "✅"
     },
     {
-        keywords: "frais déplacement",
+        keywords: "fiche frais déplacement",
         link: "./documents/frais/frais_deplacement.pdf",
         text: "fiche de frais de déplacement",
         icon: "✅"

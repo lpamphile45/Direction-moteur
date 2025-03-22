@@ -370,7 +370,7 @@ const documents = [
         icon: "✅"
     },
 
-//programmes scolaires
+//pédagogie pilotage programmes scolaires
 {
     keywords: "programmes scolaires cycle2 français",
     link: "./documents/programmes_scolaires/programmes_francais_cycle2.pdf",
@@ -408,11 +408,18 @@ const documents = [
     icon: "✅"
 },
 {
-    keywords: "programmes scolaires appropriation aide",
+    keywords: "programmes scolaires aide",
     link: "./documents/programmes_scolaires/aide_appropriation-nouveaux-programmes.pdf",
     text: "Nouveaux programmes 2025 : aide à l'appropriation (diaporama)",
     icon: "✅"
 },
+{
+    keywords: "pilotage pédagogique rapport IGESR",
+    link: "./documents/pilotage_pedagogique/rapport-pilotage-pedag_IGESR.pdf",
+    text: "Rapport intégral IGESR (pdf) : le pilotage pédagogique des écoles de l'enseignement primaire par les directeurs: état des lieux et perspectives (août 2024)",
+    icon: "✅"
+},
+
 //redoublement, maintien
 {
     keywords: "redoublement maintien poursuite scolarité",
@@ -420,6 +427,21 @@ const documents = [
     text: "Décret n° 2024-228 du 16 mars 2024 relatif à l'accompagnement pédagogique des élèves et au redoublement",
     icon: "✅"
 },
+
+// sécurité 
+{
+    keywords: "guide élève élèves perturbateur ",
+    link: "./documents/securite/Guide_accompagnement_personnels_eleves_perturbateurs.pdf",
+    text: "Guide d'accompagnement des personnels confrontés à des élèves à comportements perturbateurs provoquant des situations difficiles",
+    icon: "✅"
+},
+{
+    keywords: "fiche réflexe élève élèves perturbateur ",
+    link: "./documents/securite/Fiche_reflexe_tableau_de_bord.pdf",
+    text: "Fiche réflexe : actions pour accompagner un adjoint confronté à des élèves à comportements perturbateurs provoquant des situations difficiles",
+    icon: "✅"
+},
+
 
 //sigles et acronymes
     { keywords: "AED AE", text: "Assistant d'Éducation", icon: "👉🏻" },
@@ -451,7 +473,7 @@ const documents = [
     { keywords: "CDOEA", text: "CDOEA : Commission D'Orientation vers les Enseignements Adaptés du second degré", icon: "👉🏻" },
     { keywords: "CE", text: "CE : Chef d’Établissement", icon: "👉🏻" },
     { keywords: "CEDRE", text: "CEDRE : Cycle des Evaluations Disciplinaires Réalisées sur Echantillon", icon: "👉🏻" },
-    { keywords: "CHS", text: "CHS : Comité d’Hygiène et de Sécurité", icon: "👉🏻" },
+    { keywords: "CHS-CHSCT", text: "CHS : Comité d’Hygiène et de Sécurité - CHSCT : Comité d’Hygiène, de Sécurité et des Conditions de Travail", icon: "👉🏻" },
     { keywords: "CLAS", text: "CLAS : Contrats Locaux d'Accompagnement Scolaire", icon: "👉🏻" },
     { keywords: "CMP", text: "CMP : Centre Médico-Psychologique", icon: "👉🏻" },
     { keywords: "CMPP", text: "CMPP : Centre Médico-PsychoPédagogique", icon: "👉🏻" },
@@ -486,6 +508,7 @@ const documents = [
     { keywords: "EMAS", text: "EMAS : Equipe Mobile Académique de Sécurité", icon: "👉🏻"  },
     { keywords: "EMC", text: "EMC : Enseignement Moral et Civique", icon: "👉🏻"  },
     { keywords: "EMI", text: "EMI : Éducation aux Médias et à l'Information", icon: "👉🏻"  },
+    { keywords: "EMICEA", text: "EMICEA : Equipe Mobile d’Intervention et de Crise en faveur des Enfants et des Adolescents", icon: "👉🏻"  },
     { keywords: "EMILE", text: "EMILE : Enseignement des Matières par l'Intégration d'une Langue Étrangère", icon: "👉🏻"  },
     { keywords: "EMR", text: "EMR : Équipe Mobile Ressource", icon: "👉🏻"  },
     { keywords: "ENT", text: "ENT : Environnement numérique de travail", icon: "👉🏻"  },

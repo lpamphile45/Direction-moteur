@@ -448,6 +448,7 @@ const documents = [
     { keywords: "AA1D", text: "AA1D : Autorisation d'Absence du 1er Degré", icon: "👉🏻" },
     { keywords: "AESH", text: "AESH : Accompagnant des élèves en situation de handicap (apparu en 2014 en remplacement de AVS)", icon: "👉🏻" },
     { keywords: "ADAGE", text: "ADAGE : Application Dédiée À la Généralisation de l'Éducation artistique et culturelle", icon: "👉🏻" },
+    { keywords: "ADATEEP", text: "ADATEEP : Association Départementale pour les Transports Éducatifs de l’Enseignement Public", icon: "👉🏻" },
     { keywords: "AFFELNET", text: "AFFELNET : AFFectation des Elèves par le NET", icon: "👉🏻" },
     { keywords: "AGS", text: "AGS : Ancienneté Générale de Service", icon: "👉🏻" },
     { keywords: "AP", text: "AP : Accompagnement personnalisé", icon: "👉🏻" },

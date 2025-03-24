@@ -561,6 +561,7 @@ const documents = [
     { keywords: "PAI", text: "PAI : Projet d’Accueil Individualisé", icon: "👉🏻"  },
     { keywords: "PAP", text: "PAP : Plan d’Accompagnement Personnalisé", icon: "👉🏻"  },
     { keywords: "PEAC", text: "PEAC : Parcours d’Éducation Artistique et Culturelle", icon: "👉🏻"  },
+    { keywords: "PDEI", text: "PDEI : Pôle Départemental de l'Ecole Inclusive", icon: "👉🏻"  },
     { keywords: "PEDT", text: "PEDT : Projet EDucatif Territorial", icon: "👉🏻"  },
     { keywords: "PE", text: "PE : Professeur des Écoles", icon: "👉🏻"  },
     { keywords: "PEMF", text: "PEMF : Professeur des écoles Maître formateur", icon: "👉🏻"  },

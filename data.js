@@ -599,6 +599,7 @@ const documents = [
     { keywords: "TICE", text: "TICE : Technologies d'Information et de Communication pour l'Enseignement", icon: "👉🏻"  },
     { keywords: "TBI", text: "TBI : Technologies d'Information et de Communication pour l'Enseignement", icon: "👉🏻"  },
     { keywords: "TNI", text: "TNI : Tableau numérique interactif", icon: "👉🏻"  },
+    { keywords: "TDEP", text: "TDEP : Titulaire Départemental", icon: "👉🏻"  },
     { keywords: "TOP", text: "Trouble Oppositionnel avec Provocation", link: "https://www.psychologue.net/articles/quest-ce-que-le-trouble-oppositionnel-avec-provocation-7-symptomes-permettant-de-lidentifier", icon: "👉🏻"  },
     { keywords: "UEE", text: "UEE : Unité d'Enseignement Externalisée", link: "https://ecole-inclusive.sd.ac-dijon.fr/2023/01/02/lunite-denseignement-externalisee-uee-de-quoi-parlons-nous/" },
     { keywords: "VPI", text: "VPI : VideoProjecteur Interactif", icon: "👉🏻"  },

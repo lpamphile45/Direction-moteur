@@ -420,6 +420,41 @@ const documents = [
     icon: "✅"
 },
 
+// Pix Junior
+{
+    keywords: "pix junior mission fiche",
+    link: "https://pix.fr/enseignement-primaire",
+    text: "Pix au coeur de l'enseignement du numérique en primaire : présentation et explication",
+    icon: "✅"
+},
+
+{
+    keywords: "pix junior mission fiche traitement de texte",
+    link: "./documents/pix_junior/Utiliser_traitement_de_texte.pdf",
+    text: "Pix junior : fiche mission : utiliser un traitement de texte",
+    icon: "✅"
+},
+{
+    keywords: "pix junior mission fiche recherche sur internet",
+    link: "./documents/pix_junior/Rechercher_internet.pdf",
+    text: "Pix junior : fiche mission : recherche sur internet",
+    icon: "✅"
+},
+{
+    keywords: "pix junior mission fiche données personnelles protéger protection",
+    link: "./documents/pix_junior/Proteger_donnees_personnelles.pdf",
+    text: "Pix junior : fiche mission : protéger les données personnelles",
+    icon: "✅"
+},
+{
+    keywords: "pix junior mission fiche cyberharcèlement",
+    link: "./documents/pix_junior/Lutter_cyberharcelement.pdf",
+    text: "Pix junior : fiche mission : lutter contre le cyberharcèlement",
+    icon: "✅"
+},
+
+
+
 //redoublement, maintien
 {
     keywords: "redoublement maintien poursuite scolarité",

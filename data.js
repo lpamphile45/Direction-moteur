@@ -482,6 +482,7 @@ const documents = [
     { keywords: "CNR", text: "CNR : Conseil National de la Refondation", icon: "👉🏻" },
     { keywords: "CPC", text: "CPC : Conseiller pédagogique de circonscription", icon: "👉🏻" },
     { keywords: "CPD", text: "CPD : Conseiller pédagogique départemental", icon: "👉🏻" },
+    { keywords: "CRCN", text: "CRCN : Cadre de Référence des Compétences Numériques)", icon: "👉🏻" },
     { keywords: "CRPE", text: "CRPE : Concours de Recrutement de Professeurs des Ecoles", icon: "👉🏻" },
     { keywords: "CSSCT", text: "CSSCT : Commission Santé Sécurité et Conditions de Travail (remplace le CHSCT)", icon: "👉🏻" },
     { keywords: "DASEN", text: "DASEN : Directeur académique des services de l’Éducation Nationale" , icon: "👉🏻" },

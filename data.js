@@ -12,34 +12,41 @@ const documents = [
     text: "Tableau détaillé de suivi des 108 heures (prise en compte des temps partiels)(fichier xlsx)",
     icon: "✅"
 },
+{
+    keywords: "108 heures répartition JO",
+    link: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034315959/",
+    text: "Répartition des 1O8 heures (lien vers LégiFrance)",
+    icon: "✅"
+},
+
     //accidents scolaires 
     {
         keywords: "accident scolaire procédure 2024-2025",
-        link: "./documents/accidents%20scolaires/circulaire_2024-2025.pdf",
+        link: "./documents/accidents_scolaires/circulaire-2024-2025_MDP.pdf",
         text: "Procédure accident scolaire année 2024-2025",
         icon: "✅"
     },
     {
         keywords: "accident scolaire déclaration formulaire vierge 2024-2025",
-        link: "./documents/accidents%20scolaires/Annexe_1_accident_scol_declaration.pdf",
+        link: "./documents/accidents_scolaires/Annexe_1_accident_scol_declaration.pdf",
         text: "Formulaire de déclaration d'accident scolaire 2024-2025",
         icon: "✅"
     },
     {
         keywords: "accident scolaire autorisation parentale 2024-2025",
-        link: "./documents/accidents%20scolaires/autorisation_parentale.pdf",
+        link: "./documents/accidents_scolaires/autorisation_parentale.pdf",
         text: "Autorisation parentale de communiquer des informations pour une déclaration d'accident scolaire 2024-2025",
         icon: "✅"
     },
     {
         keywords: "incident scolaire déclaration vierge 2024-2025",
-        link: "./documents/accidents%20scolaires/Annexe_2_incident_degradation_materiel.pdf",
+        link: "./documents/accidents_scolaires/Annexe_2_incident_degradation_materiel.pdf",
         text: "Formulaire pour une déclaration d'incident scolaire 2024-2025",
         icon: "✅"
     },
     {
         keywords: "incident scolaire bris de lunettes FAQ",
-        link: "./documents/accidents%20scolaires/bris_lunettes.pdf",
+        link: "./documents/accidents_scolaires/bris_lunettes.pdf",
         text: "Bris de lunettes : que faire ?",
         icon: "✅"
     },
@@ -61,7 +68,7 @@ const documents = [
         keywords: "autorité parentale",
         link: "./autorite_parentale.html",
         text: "Tout sur l'autorité parentale",
-        icon: "✅"
+        icon: "🗂️"
     },
     //absentéisme
     {
@@ -98,7 +105,7 @@ const documents = [
         keywords: "conseil d'école",
         link: "./conseil_ecole.html",
         text: "Conseil d'école",
-        icon: "✅"
+        icon: "🗂️"
     },
     {
         keywords: "conseil école relecture compte-rendu note PV procès-verbal",
@@ -158,12 +165,6 @@ const documents = [
     },
     
     {
-        keywords: "108 heures répartition JO",
-        link: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034315959/",
-        text: "Répartition des 1O8 heures (lien vers LégiFrance)",
-        icon: "✅"
-    },
-    {
         keywords: "sécurité fiche",
         link: "./documents/securite/formulaire_fiche_securite.pdf",
         text: "Formulaire annuel fiche sécurité des écoles (formulaire pdf à remplir)",
@@ -181,7 +182,7 @@ const documents = [
         keywords: "équipe éducative guide",
         link: "./equipe_educative.html",
         text: "Équipe éducative",
-        icon: "✅"
+        icon: "🗂️"
     },
     {
         keywords: "équipe éducative compte-rendu PV procès-verbal",
@@ -196,7 +197,7 @@ const documents = [
         icon: "✅"
     },
     {
-        keywords: "EBEP fiche accompagnement",
+        keywords: "EBEP fiche accompagnement élèves",
         link: "./documents/equipe_educative/fiche_de_demande_d_accompagnement_premier_degre.pdf",
         text: "EBEP : fiche de demande d'accompagnement pour un EBEP",
         icon: "✅"
@@ -457,7 +458,7 @@ const documents = [
 
 //redoublement, maintien
 {
-    keywords: "redoublement maintien poursuite scolarité",
+    keywords: "redoublement maintien poursuite scolarité élève",
     link: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049286365",
     text: "Décret n° 2024-228 du 16 mars 2024 relatif à l'accompagnement pédagogique des élèves et au redoublement",
     icon: "✅"
@@ -679,7 +680,7 @@ const documents = [
     keywords: "poursuite de la scolarité",
     link: "./poursuite_scolarite.html",
     text: "Poursuite de la scolarité",
-    icon: "✅"
+    icon: "🗂️"
 }
 ];
 

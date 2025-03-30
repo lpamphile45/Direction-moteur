@@ -466,7 +466,7 @@ const documents = [
 // sécurité 
 {
     keywords: "guide élève élèves perturbateur ",
-    link: "./documents/securite/Guide_accompagnement_personnels_eleves_perturbateurs.pdf",
+    link: "./documents/securite/Guide_accompagnement_personnels_eleves_perturbateurs_MDP.pdf",
     text: "Guide d'accompagnement des personnels confrontés à des élèves à comportements perturbateurs provoquant des situations difficiles",
     icon: "✅"
 },

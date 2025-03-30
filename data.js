@@ -472,8 +472,14 @@ const documents = [
 },
 {
     keywords: "fiche réflexe élève élèves perturbateur ",
-    link: "./documents/securite/Fiche_reflexe_tableau_de_bord.pdf",
+    link: "./documents/securite/Fiche_reflexe_tableau_de_bord_MDP.pdf",
     text: "Fiche réflexe : actions pour accompagner un adjoint confronté à des élèves à comportements perturbateurs provoquant des situations difficiles",
+    icon: "✅"
+},
+{
+    keywords: "fiche sécurité école publique ",
+    link: "./documents/securite/formulaire_fiche_securite.pdf",
+    text: "Fiche sécurité école publique annuelle",
     icon: "✅"
 },
 

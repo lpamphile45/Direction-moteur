@@ -165,12 +165,6 @@ const documents = [
     },
     
     {
-        keywords: "sécurité fiche",
-        link: "./documents/securite/formulaire_fiche_securite.pdf",
-        text: "Formulaire annuel fiche sécurité des écoles (formulaire pdf à remplir)",
-        icon: "✅"
-    },
-    {
         keywords: "pilotage pédagogique rapport IGESR",
         link: "./documents/pilotage_pedagogique/Le_pilotage_pedagogique.pdf",
         text: "Le pilotage pédagogique des écoles par les directrices et directeurs d'école : synthèse du rapport de l'IGESR (août 2024)",

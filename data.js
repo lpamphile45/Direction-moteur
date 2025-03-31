@@ -335,37 +335,37 @@ const documents = [
 
     //onde
     {
-        keywords: "onde changer changement niveau élève",
+        keywords: "onde changer changement niveau élève pas-à-pas pas à pas",
         link: "./documents/onde/changer_niveau_eleve_onde.pdf",
         text: "Changer le niveau d'un élève dans Onde",
         icon: "✅"
     },
     {
-        keywords: "onde changer changement année scolaire",
+        keywords: "onde changer changement année scolaire pas-à-pas pas à pas",
         link: "./documents/onde/ONDE_changement_annee_2024.pdf",
         text: "Changement d'année scolaire dans Onde",
         icon: "✅"
     },
     {
-        keywords: "onde PCS professions catégories socioprofessionnelles",
+        keywords: "onde PCS professions catégories socioprofessionnelles pas-à-pas pas à pas",
         link: "./documents/onde/tuto_PCS.pdf",
         text: "Renseigner les PCS dans Onde",
         icon: "✅"
     },
     {
-        keywords: "onde doublon élections de parents",
+        keywords: "onde doublon élections de parents pas-à-pas pas à pas",
         link: "./documents/onde/onde_supprimer_des_doublons_dans_la_liste_electorale.pdf",
         text: "Onde : supprimer les doublons dans la liste électorale",
         icon: "✅"
     },
     {
-        keywords: "onde prévisions effectifs",
+        keywords: "onde prévisions effectifs pas-à-pas pas à pas",
         link: "./documents/onde/prevision_effectifs.pdf",
         text: "Prévisions des effectifs dans Onde",
         icon: "✅"
     },
     {
-        keywords: "onde passages",
+        keywords: "onde passages pas-à-pas pas à pas",
         link: "./documents/onde/onde_les-passages.pdf",
         text: "Les Passages dans Onde",
         icon: "✅"
@@ -420,6 +420,16 @@ const documents = [
     text: "Rapport intégral IGESR (pdf) : le pilotage pédagogique des écoles de l'enseignement primaire par les directeurs: état des lieux et perspectives (août 2024)",
     icon: "✅"
 },
+
+//pHARe
+{
+    keywords: "phare pHARe labellisation niveau 1 pas-à-pas pas à pas",
+    link: "./documents/phare/Pas_a_pas_labellisation_pHARe_niveau 1.pdf",
+    text: "Pas-à-pas labellisation pHARe niveau 1",
+    icon: "✅"
+},
+
+
 
 // Pix Junior
 {

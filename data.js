@@ -145,12 +145,7 @@ const documents = [
         text: "Calendrier annuel de la direction d'école",
         icon: "✅"
     },
-    {
-        keywords: "fait établissement guide",
-        link: "./documents/fait_etablissement/faits_etablissement.pdf",
-        text: "Guide du Fait établissement : de sa définition à sa déclaration via Arena",
-        icon: "✅"
-    },
+    
     {
         keywords: "DSDEN organigramme",
         link: "./documents/DSDEN/organigramme-dsden-45_24_25_MDP.pdf",
@@ -197,6 +192,21 @@ const documents = [
         icon: "✅"
     },
 
+    // fait établissement
+    {
+        keywords: "fait établissement guide",
+        link: "./documents/fait_etablissement/faits_etablissement.pdf",
+        text: "Guide du Fait établissement : de sa définition à sa déclaration via Arena",
+        icon: "✅"
+    },
+    {
+        keywords: "fait établissement manuel utilisateur",
+        link: "./documents/fait_etablissement/GUIDE_UTILISATEUR_2024.pdf",
+        text: "Manuel détaillé du Fait établissement (pdf, 128 pages)",
+        icon: "✅"
+    },
+    
+    
     //GDDE
     {
         keywords: "GDDE compte-rendu",

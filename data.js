@@ -196,7 +196,7 @@ const documents = [
     {
         keywords: "fait établissement guide",
         link: "./documents/fait_etablissement/faits_etablissement.pdf",
-        text: "Guide du Fait établissement : de sa définition à sa déclaration via Arena",
+        text: "Guide du Fait établissement : de sa définition à sa déclaration via Arena (pdf, 18 diapos)",
         icon: "✅"
     },
     {

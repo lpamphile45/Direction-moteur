@@ -51,6 +51,14 @@ const documents = [
         icon: "✅"
     },
 
+    //animaux à l'école
+    {
+        keywords: "animaux animal école",
+        link: "./documents/animaux/animaux_ecole.pdf",
+        text: "Note relative à la présence d'animaux dans les établissements scolaires du 1er et 2na degré (MDP)",
+        icon: "✅"
+    },
+
     //autorité parentale
     {
         keywords: "autorité parentale FAQ",

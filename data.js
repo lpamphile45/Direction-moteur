@@ -432,6 +432,20 @@ const documents = [
     text: "Rapport intégral IGESR (pdf) : le pilotage pédagogique des écoles de l'enseignement primaire par les directeurs: état des lieux et perspectives (août 2024)",
     icon: "✅"
 },
+{
+    keywords: "pilotage pédagogique évaluations nationales",
+    link: "https://view.genially.com/671e0c4a58d5918d14be4373/guide-pilotage-pedagogique-des-directeurs-decole",
+    text: "Pilotage pédagogique : faire des évaluations nationales un levier majeur de pilotage pédagogique (académie de Lille, Genially)",
+    icon: "✅"
+},
+{
+    keywords: "loi Rilhac Rihlac",
+    link: "./documents/pilotage_pedagogique/loi_rilhac.pdf",
+    text: "loi Rilhac (pdf) : loi créant la fonction de directrice ou de directeur d’école (21 décembre 2021)",
+    icon: "✅"
+},
+
+
 
 //pHARe
 {
